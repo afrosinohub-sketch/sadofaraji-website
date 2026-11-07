@@ -1,0 +1,183 @@
+================================================================
+  KODI ZA KUPIA — DEPLOYMENT YA SADO FARAJI WEBSITE
+================================================================
+
+Email: sadofaraji@gmail.com
+Domain: sadofaraji.com
+Registrar: Namecheap
+GitHub Username: shiosamwanza-source
+
+----------------------------------------------------------------
+HATUA YA 1: GITHUB REPOSITORY (KAMA HUJAWEKA)
+----------------------------------------------------------------
+
+Nenda: https://github.com/new
+
+Repository name:     sadofaraji-website
+Description:         Tovuti rasmi ya Sado Faraji
+Visibility:          Public (au Private)
+Initialize README:   HAPANA (usitengeneze)
+
+Bonyeza: Create repository
+
+----------------------------------------------------------------
+HATUA YA 2: GIT PUSH (COPY NA UWEKE KWENYE TERMINAL)
+----------------------------------------------------------------
+
+cd /home/z/my-project
+
+git remote add origin https://github.com/shiosamwanza-source/sadofaraji-website.git
+
+git branch -M main
+
+git push -u origin main
+
+----------------------------------------------------------------
+KAMA GIT INAULIZA USERNAME/PASSWORD:
+----------------------------------------------------------------
+
+GitHub Username:  shiosamwanza-source
+Password field:   [WEKA TOKEN YAKO HAPA — sio password ya kawaida]
+
+Jinsi ya kutengeneza token:
+1. Nenda: https://github.com/settings/tokens
+2. Bonyeza: Generate new token → Generate new token (classic)
+3. Note: Sado Faraji Website Deployment
+4. Expiration: 90 days
+5. Chagua: repo (box ya kwanza)
+6. Bonyeza: Generate token (chini)
+7. COPY token mara moja — haitaonekana tena!
+8. Weka token kama "password" wakati git inauliza
+
+----------------------------------------------------------------
+HATUA YA 3: VERCEL CLI DEPLOYMENT (BILA GITHUB)
+----------------------------------------------------------------
+
+# Install Vercel CLI (kama hujaweka)
+npm install -g vercel
+
+# Login (itakutuma email ya kuthibitisha)
+vercel login
+# Chagua: Email
+# Weka: sadofaraji@gmail.com
+# Fungua email yako → bonyeza link ya uthibitisho
+
+# Deploy (development preview)
+cd /home/z/my-project
+vercel
+
+# Mafitikio ya kujaza:
+# ? Set up and deploy? → Y
+# ? Which scope do you want to deploy to? → [bonyeza Enter]
+# ? Link to existing project? → N
+# ? What's your project's name? → sadofaraji-website
+# ? In which directory is your code located? → ./
+# ? Want to modify these settings? → N
+
+# Production deploy
+vercel --prod
+
+----------------------------------------------------------------
+HATUA YA 4: ONGEZA CUSTOM DOMAIN KWENYE VERCEL
+----------------------------------------------------------------
+
+vercel domains add sadofaraji.com
+
+vercel domains add www.sadofaraji.com
+
+----------------------------------------------------------------
+HATUA YA 5: NAMECHEAP DNS SETTINGS
+----------------------------------------------------------------
+
+1. Login: https://www.namecheap.com
+2. Account → Domain List
+3. Kando ya sadofaraji.com → bonyeza "Manage"
+4. Tab ya "Advanced DNS"
+5. FUTA records zote za zamani za A na CNAME za sadofaraji.com
+6. Ongeza records mpya:
+
+   TYPE:      A Record
+   Host:      @
+   Value:     76.76.21.21
+   TTL:       Automatic
+
+   TYPE:      CNAME Record
+   Host:      www
+   Value:     cname.vercel-dns.com
+   TTL:       Automatic
+
+7. (Hiari) Ongeza redirect www → non-www:
+   TYPE:      URL Redirect Record
+   Host:      www
+   Value:     https://sadofaraji.com
+   Redirect:  Permanent (301)
+
+8. Bonyeza: Save Changes (checkmark ya kijani kando)
+
+----------------------------------------------------------------
+HATUA YA 6: SUBIRI DNS PROPAGATION
+----------------------------------------------------------------
+
+Kuangalia kama DNS imeenea:
+
+# Chaguo 1: Online tool
+Nenda: https://dnschecker.org
+Weka: sadofaraji.com
+Chagua: A
+
+# Chaguo 2: Terminal
+nslookup sadofaraji.com
+# (Inapaswa kurudisha: 76.76.21.21)
+
+# Chaguo 3: Browser
+Fungua: https://sadofaraji.com
+(Tovuti yako iko live!)
+
+----------------------------------------------------------------
+HATUA YA 7: SSL CERTIFICATE
+----------------------------------------------------------------
+
+Vercel itatengeneza SSL certificate automatically baada ya DNS.
+Kama SSL haijatengenezwa baada ya saa 1:
+
+1. Nenda: https://vercel.com/dashboard
+2. Project yako → Settings → Domains
+3. Kando ya sadofaraji.com → bonyeza "Renew Certificate"
+
+----------------------------------------------------------------
+LINKS MUHIMU
+----------------------------------------------------------------
+
+GitHub Login:        https://github.com/login
+GitHub New Repo:     https://github.com/new
+GitHub Tokens:       https://github.com/settings/tokens
+Vercel Dashboard:    https://vercel.com/dashboard
+Namecheap Login:     https://www.namecheap.com
+DNS Checker:         https://dnschecker.org
+
+----------------------------------------------------------------
+TATIZO LA AUTHENTICATOR
+----------------------------------------------------------------
+
+Kama GitHub 2FA inakusumbua:
+
+Chaguo A: Recovery Codes
+1. Login kwenye GitHub
+2. Settings → Password and authentication
+3. Recovery codes → View
+4. Tumia moja ya codes
+
+Chaguo B: Zima 2FA kwa muda
+1. Settings → Password and authentication
+2. Disable 2FA
+3. Tengeneza token
+4. Washa 2FA tena (tumia SMS)
+
+Chaguo C: SMS badala ya app
+1. Settings → Password and authentication
+2. Two-factor methods → Add → Text message
+3. Weka namba yako ya simu
+
+----------------------------------------------------------------
+© 2026 Sado Faraji. Verba volent, scripta manent.
+================================================================
