@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sado Faraji — Author · Historian · Critical Thinker</title>
+  <meta name="description" content="Official website of Sado Faraji — author and historian from Dar es Salaam, Tanzania. Books on history, religion, politics, fiction and fantasy." />
+  <meta name="author" content="Sado Faraji" />
+  <meta property="og:title" content="Sado Faraji — Author · Historian" />
+  <meta property="og:description" content="Books and articles by Sado Faraji. History, religion, politics and fiction." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0B0A08" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,600&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0B0A08;
+      --bg-soft: #121009;
+      --bg-elev: #161309;
+      --surface: #1B1610;
+      --surface-2: #221C12;
+      --card: #28201A;
+      --card-hi: #2F2618;
+      --border: #322A1E;
+      --border-soft: #3D3324;
+      --border-strong: #4A3D29;
+
+      --text: #F5EEDD;
+      --text-soft: #D8CFB9;
+      --text-mute: #A89E84;
+      --muted: #8E8470;
+      --muted-deep: #5E5645;
+
+      --gold: #C9A961;
+      --gold-bright: #E6C77A;
+      --gold-deep: #9A7F42;
+      --gold-glow: rgba(201, 169, 97, 0.18);
+
+      --wine: #8B2635;
+      --wine-bright: #B8424F;
+      --wine-soft: rgba(139, 38, 53, 0.14);
+
+      --sage: #6F8B6A;
+      --sage-bright: #93AE85;
+      --sage-soft: rgba(111, 139, 106, 0.14);
+
+      --teal: #2D6B6E;
+      --teal-bright: #4D9499;
+      --teal-soft: rgba(45, 107, 110, 0.16);
+
+      --plum: #5B3A66;
+      --plum-bright: #8A5DA0;
+      --plum-soft: rgba(91, 58, 102, 0.18);
+
+      --amber: #C77A3B;
+      --amber-bright: #E29858;
+      --amber-soft: rgba(199, 122, 59, 0.16);
+
+      --paper: #E8DFC8;
+      --ink: #14110A;
+
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+      --radius: 4px;
+      --radius-md: 8px;
+      --radius-lg: 14px;
+      --radius-xl: 20px;
+
+      --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+      --shadow-2: 0 8px 24px rgba(0,0,0,0.35);
+      --shadow-3: 0 24px 60px rgba(0,0,0,0.5);
+      --shadow-gold: 0 12px 40px rgba(201, 169, 97, 0.12);
+    }
+
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body.modal-open { overflow: hidden; }
+
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: 1; pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.78 0 0 0 0 0.66 0 0 0 0 0.38 0 0 0 0.5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      opacity: 0.025; mix-blend-mode: overlay;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+    img { max-width: 100%; height: auto; display: block; }
+    svg { display: inline-block; vertical-align: middle; }
+    ::selection { background: rgba(201, 169, 97, 0.3); color: var(--gold-bright); }
+
+    ::-webkit-scrollbar { width: 11px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border-soft); border-radius: 6px; border: 2px solid var(--bg); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--muted-deep); }
+
+    .container {
+      max-width: 1320px; margin: 0 auto; padding: 0 1.5rem; position: relative;
+    }
+    @media (min-width: 768px) { .container { padding: 0 2rem; } }
+    @media (min-width: 1280px) { .container { padding: 0 3rem; } }
+
+    /* ============ HEADER ============ */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      transition: all .4s cubic-bezier(.4,0,.2,1);
+    }
+    .header.scrolled {
+      background: rgba(11, 10, 8, 0.85);
+      backdrop-filter: blur(24px) saturate(180%);
+      -webkit-backdrop-filter: blur(24px) saturate(180%);
+      border-bottom: 1px solid rgba(50, 42, 30, 0.6);
+    }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 4.75rem;
+    }
+    @media (min-width: 768px) { .header-inner { height: 5.25rem; } }
+
+    .logo { display: flex; align-items: center; gap: .85rem; }
+    .logo-mark {
+      width: 2.6rem; height: 2.6rem;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--surface-2), var(--bg));
+      font-family: var(--font-display); font-weight: 700; font-size: 1.05rem;
+      color: var(--gold-bright); letter-spacing: -0.02em;
+      border-radius: 2px;
+      box-shadow: inset 0 0 0 1px var(--gold), 0 0 0 4px rgba(201, 169, 97, 0.06);
+      transition: box-shadow .3s ease;
+    }
+    .logo:hover .logo-mark {
+      box-shadow: inset 0 0 0 1px var(--gold-bright), 0 0 0 5px rgba(201, 169, 97, 0.12);
+    }
+    @media (min-width: 640px) { .logo-mark { width: 2.85rem; height: 2.85rem; font-size: 1.2rem; } }
+    .logo-text { display: none; }
+    @media (min-width: 640px) { .logo-text { display: block; line-height: 1.1; } }
+    .logo-text .name {
+      font-family: var(--font-display); font-weight: 600; font-size: 1.08rem;
+      color: var(--text); letter-spacing: -0.015em;
+    }
+    .logo-text .role {
+      font-size: .625rem; text-transform: uppercase; letter-spacing: .24em;
+      color: var(--gold); font-weight: 500; margin-top: 2px;
+    }
+
+    .nav-desktop { display: none; align-items: center; gap: .15rem; }
+    @media (min-width: 900px) { .nav-desktop { display: flex; } }
+    .nav-desktop a.nav-link {
+      padding: .55rem .95rem; font-size: .875rem; font-weight: 400;
+      color: var(--text-soft); letter-spacing: .01em;
+      transition: color .2s; position: relative;
+    }
+    .nav-desktop a.nav-link::after {
+      content: ''; position: absolute; left: 50%; bottom: .15rem; transform: translateX(-50%);
+      width: 0; height: 1px; background: var(--gold-bright);
+      transition: width .3s ease;
+    }
+    .nav-desktop a.nav-link:hover { color: var(--gold-bright); }
+    .nav-desktop a.nav-link:hover::after { width: 60%; }
+    .nav-cta {
+      margin-left: .85rem;
+      display: inline-flex; align-items: center; gap: .5rem;
+      padding: .65rem 1.3rem;
+      background: var(--gold); color: var(--ink);
+      font-size: .8125rem; font-weight: 600; letter-spacing: .03em;
+      transition: all .25s cubic-bezier(.4,0,.2,1);
+      border-radius: 2px;
+      box-shadow: 0 4px 12px rgba(201, 169, 97, 0.2);
+    }
+    .nav-cta:hover {
+      background: var(--gold-bright); transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(201, 169, 97, 0.35);
+    }
+    .nav-cta svg { width: 1rem; height: 1rem; }
+
+    .menu-btn {
+      display: block; padding: .55rem;
+      color: var(--text-soft);
+      border-radius: 4px; transition: all .2s;
+    }
+    .menu-btn:hover { color: var(--gold-bright); background: rgba(201, 169, 97, 0.06); }
+    @media (min-width: 900px) { .menu-btn { display: none; } }
+    .menu-btn svg { width: 1.5rem; height: 1.5rem; }
+
+    .mobile-nav {
+      display: none;
+      background: rgba(11, 10, 8, 0.98);
+      backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border);
+    }
+    .mobile-nav.open { display: block; animation: slideDown .3s ease; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    .mobile-nav .container { padding: 1rem 1.5rem; display: flex; flex-direction: column; gap: .15rem; }
+    .mobile-nav a {
+      padding: 1rem .5rem; font-size: 1.05rem; color: var(--text-soft);
+      border-bottom: 1px solid var(--border);
+      font-family: var(--font-display); font-weight: 500;
+    }
+    .mobile-nav a:last-of-type { border-bottom: none; }
+    .mobile-nav a:hover { color: var(--gold-bright); }
+    .mobile-nav .nav-cta { margin: .75rem 0 0; justify-content: center; border-bottom: none; font-family: var(--font-sans); font-weight: 600; }
+
+    /* ============ HERO ============ */
+    .hero {
+      position: relative; overflow: hidden;
+      padding: 8.5rem 0 5rem;
+    }
+    @media (min-width: 768px) { .hero { padding: 10rem 0 7rem; } }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 25% 10%, rgba(201, 169, 97, 0.10), transparent 60%),
+        radial-gradient(ellipse 50% 40% at 85% 20%, rgba(139, 38, 53, 0.07), transparent 60%),
+        radial-gradient(ellipse 60% 50% at 50% 100%, rgba(45, 107, 110, 0.06), transparent 60%),
+        var(--bg);
+    }
+    .hero-bg::before {
+      content: ''; position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(201, 169, 97, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 97, 0.03) 1px, transparent 1px);
+      background-size: 90px 90px;
+      mask-image: radial-gradient(ellipse 80% 70% at center, black, transparent 75%);
+      -webkit-mask-image: radial-gradient(ellipse 80% 70% at center, black, transparent 75%);
+    }
+    .hero-bg::after {
+      content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 1px; height: 100%;
+      background: linear-gradient(to bottom, transparent, rgba(201, 169, 97, 0.15) 30%, rgba(201, 169, 97, 0.15) 70%, transparent);
+    }
+    .hero .container { position: relative; z-index: 1; }
+
+    .hero-grid {
+      display: grid; gap: 3.5rem; align-items: center;
+    }
+    @media (min-width: 1024px) { .hero-grid { grid-template-columns: 1.05fr .95fr; gap: 5rem; } }
+
+    .hero-content { text-align: center; }
+    @media (min-width: 1024px) { .hero-content { text-align: left; } }
+
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: .65rem;
+      padding: .45rem 1.1rem;
+      border: 1px solid var(--border-strong);
+      background: linear-gradient(135deg, rgba(201, 169, 97, 0.06), rgba(201, 169, 97, 0.02));
+      color: var(--gold);
+      font-size: .6875rem; font-weight: 500;
+      text-transform: uppercase; letter-spacing: .22em;
+      border-radius: 100px;
+      backdrop-filter: blur(8px);
+    }
+    .hero-eyebrow .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--gold); box-shadow: 0 0 10px var(--gold);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 10px var(--gold); }
+      50% { opacity: .6; box-shadow: 0 0 16px var(--gold-bright); }
+    }
+
+    .hero-title {
+      margin-top: 1.75rem;
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(3.2rem, 9vw, 6rem);
+      line-height: .95;
+      letter-spacing: -0.035em;
+    }
+    .hero-title .l1 { display: block; color: var(--text); }
+    .hero-title .l2 {
+      display: block;
+      background: linear-gradient(115deg, var(--gold-bright) 0%, var(--gold) 45%, var(--amber-bright) 85%);
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-style: italic; font-weight: 400;
+      font-variation-settings: "opsz" 144;
+    }
+
+    .hero-tagline {
+      margin-top: 1.5rem;
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--text-soft);
+      letter-spacing: .015em;
+      display: inline-flex; align-items: center; gap: 1rem;
+    }
+    @media (min-width: 480px) { .hero-tagline { font-size: 1.35rem; } }
+    .hero-tagline::before, .hero-tagline::after {
+      content: ''; width: 2.5rem; height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-deep));
+      flex-shrink: 0;
+    }
+    .hero-tagline::after { background: linear-gradient(to left, transparent, var(--gold-deep)); }
+    @media (max-width: 1023px) { .hero-tagline::before, .hero-tagline::after { width: 1.25rem; } }
+    @media (max-width: 479px) { .hero-tagline { white-space: nowrap; font-size: 1rem; gap: .5rem; } .hero-tagline::before, .hero-tagline::after { width: .75rem; } }
+
+    .hero-lead {
+      margin: 2rem auto 0; max-width: 38rem;
+      font-size: 1rem; line-height: 1.75;
+      color: var(--text-mute);
+    }
+    @media (min-width: 480px) { .hero-lead { font-size: 1.0625rem; } }
+    @media (min-width: 1024px) { .hero-lead { margin-left: 0; margin-right: 0; } }
+
+    .hero-actions {
+      margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: .85rem;
+      justify-content: center;
+    }
+    @media (min-width: 1024px) { .hero-actions { justify-content: flex-start; } }
+    @media (max-width: 479px) { .hero-actions .btn { width: 100%; justify-content: center; } }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: .6rem;
+      padding: .9rem 1.85rem;
+      font-size: .875rem; font-weight: 600; letter-spacing: .02em;
+      transition: all .3s cubic-bezier(.4,0,.2,1);
+      border-radius: 2px;
+      position: relative;
+    }
+    .btn svg { width: 1.1rem; height: 1.1rem; transition: transform .3s; }
+    .btn-primary {
+      background: var(--gold); color: var(--ink);
+      box-shadow: 0 6px 18px rgba(201, 169, 97, 0.22);
+    }
+    .btn-primary:hover {
+      background: var(--gold-bright);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(201, 169, 97, 0.35);
+    }
+    .btn-primary:hover svg { transform: translateX(3px); }
+    .btn-ghost {
+      border: 1px solid var(--border-strong);
+      color: var(--text-soft);
+      background: rgba(27, 22, 16, 0.4);
+      backdrop-filter: blur(8px);
+    }
+    .btn-ghost:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      background: rgba(201, 169, 97, 0.06);
+      transform: translateY(-2px);
+    }
+    .btn-ghost:hover svg { transform: rotate(15deg); }
+
+    .hero-stats {
+      margin-top: 3.5rem;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 1rem; max-width: 34rem; margin-left: auto; margin-right: auto;
+    }
+    @media (min-width: 1024px) { .hero-stats { margin-left: 0; margin-right: 0; } }
+    @media (max-width: 479px) { .hero-stats { gap: .5rem; margin-top: 2.5rem; } }
+    .stat {
+      text-align: center;
+      padding: 1.25rem .75rem;
+      background: linear-gradient(180deg, rgba(40, 32, 26, 0.5), rgba(27, 22, 16, 0.3));
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(8px);
+      transition: all .3s;
+      position: relative; overflow: hidden;
+    }
+    .stat::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: .5;
+    }
+    .stat:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-gold);
+    }
+    @media (min-width: 1024px) { .stat { text-align: left; } }
+    .stat-num {
+      font-family: var(--font-display);
+      font-weight: 700; font-size: 2.5rem;
+      background: linear-gradient(135deg, var(--gold-bright), var(--gold-deep));
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      font-variation-settings: "opsz" 144;
+    }
+    @media (max-width: 479px) { .stat-num { font-size: 1.75rem; } .stat { padding: .9rem .4rem; } .stat-label { font-size: .625rem; letter-spacing: .12em; } }
+    .stat-label {
+      margin-top: .5rem;
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .18em;
+      color: var(--text-mute); font-weight: 500;
+    }
+
+    /* Hero visual */
+    .hero-visual { position: relative; }
+    .hero-portrait {
+      position: relative;
+      max-width: 24rem; margin: 0 auto;
+    }
+    @media (min-width: 1024px) { .hero-portrait { max-width: 100%; } }
+
+    .portrait-frame {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      border: 1px solid var(--border-strong);
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-3);
+    }
+    .portrait-frame img {
+      width: 100%; height: 100%; object-fit: cover;
+      filter: contrast(1.05) saturate(0.85) brightness(0.95);
+      transition: transform .8s cubic-bezier(.4,0,.2,1);
+    }
+    .portrait-frame:hover img { transform: scale(1.04); }
+    .portrait-frame::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 60%, rgba(11,10,8,0.6));
+      pointer-events: none;
+    }
+    .portrait-frame::before {
+      content: ''; position: absolute; inset: 8px;
+      border: 1px solid rgba(201, 169, 97, 0.25);
+      pointer-events: none; z-index: 2;
+      border-radius: calc(var(--radius-md) - 4px);
+    }
+
+    .portrait-meta {
+      position: absolute; bottom: 1.5rem; left: 1.5rem; right: 1.5rem;
+      display: flex; justify-content: space-between; align-items: flex-end;
+      z-index: 3;
+    }
+    .portrait-meta .name {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.2rem; color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    .portrait-meta .loc {
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .18em;
+      color: var(--gold); margin-top: .2rem;
+    }
+    .portrait-meta .since {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: .9rem; color: var(--text-soft);
+    }
+
+    .portrait-badge {
+      position: absolute; top: -1rem; right: -.5rem;
+      width: 5.5rem; height: 5.5rem;
+      background: linear-gradient(135deg, var(--gold-bright), var(--gold-deep));
+      color: var(--ink);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-weight: 700;
+      font-size: .75rem; text-align: center; line-height: 1.1;
+      box-shadow: 0 12px 30px rgba(201, 169, 97, 0.4);
+      transform: rotate(-12deg);
+      z-index: 4;
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float { 0%,100% { transform: rotate(-12deg) translateY(0); } 50% { transform: rotate(-12deg) translateY(-6px); } }
+    @media (max-width: 640px) { .portrait-badge { width: 4.25rem; height: 4.25rem; font-size: .6rem; top: -.5rem; right: -.25rem; } }
+
+    .hero-quote {
+      margin-top: 2rem; padding: 1.75rem 2rem;
+      border-left: 2px solid var(--gold);
+      background: linear-gradient(135deg, var(--surface), var(--bg-soft));
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      position: relative;
+    }
+    .hero-quote::before {
+      content: '"'; position: absolute; top: -.5rem; left: 1.5rem;
+      font-family: var(--font-display); font-size: 4rem;
+      color: var(--gold); opacity: .25; line-height: 1;
+    }
+    .hero-quote p {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: 1.1rem; line-height: 1.6;
+      color: var(--text-soft);
+    }
+    .hero-quote .attr {
+      margin-top: 1rem;
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .2em;
+      color: var(--gold); font-weight: 500;
+    }
+
+    /* ============ SECTION COMMON ============ */
+    section { padding: 5.5rem 0; position: relative; }
+    @media (min-width: 768px) { section { padding: 7.5rem 0; } }
+
+    .section-head { max-width: 46rem; position: relative; }
+    .section-head.center { margin: 0 auto; text-align: center; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: .65rem;
+      color: var(--gold);
+      font-size: .6875rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .24em;
+    }
+    .eyebrow::before {
+      content: ''; width: 2.5rem; height: 1px; background: linear-gradient(90deg, transparent, var(--gold));
+    }
+    .section-head.center .eyebrow { justify-content: center; }
+    .section-head.center .eyebrow::after {
+      content: ''; width: 2.5rem; height: 1px; background: linear-gradient(90deg, var(--gold), transparent);
+    }
+    .section-head.center .eyebrow::before { display: none; }
+
+    .section-title {
+      margin-top: 1.5rem;
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: clamp(2.1rem, 5.5vw, 3.4rem);
+      line-height: 1.05; letter-spacing: -0.025em;
+      color: var(--text);
+      font-variation-settings: "opsz" 96;
+    }
+    .section-title em {
+      font-style: italic; font-weight: 400;
+      background: linear-gradient(115deg, var(--gold-bright), var(--amber-bright));
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .section-desc {
+      margin-top: 1.5rem;
+      font-size: 1.0625rem; line-height: 1.75;
+      color: var(--text-mute);
+    }
+
+    /* ============ MARQUEE STRIP ============ */
+    .marquee-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, var(--bg-soft), var(--bg));
+      padding: 2.5rem 0;
+      overflow: hidden;
+      position: relative;
+    }
+    .marquee-strip::before, .marquee-strip::after {
+      content: ''; position: absolute; top: 0; bottom: 0; width: 8rem; z-index: 2;
+    }
+    .marquee-strip::before { left: 0; background: linear-gradient(90deg, var(--bg), transparent); }
+    .marquee-strip::after { right: 0; background: linear-gradient(-90deg, var(--bg), transparent); }
+    .marquee-track {
+      display: flex; gap: 4rem; align-items: center;
+      animation: marquee 35s linear infinite;
+      width: max-content;
+    }
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .marquee-item {
+      display: inline-flex; align-items: center; gap: .85rem;
+      font-family: var(--font-display); font-style: italic; font-weight: 400;
+      font-size: 1.4rem; color: var(--text-soft); white-space: nowrap;
+    }
+    .marquee-item .dot { color: var(--gold); font-size: 1.6rem; line-height: 1; }
+    .marquee-item strong { color: var(--gold-bright); font-weight: 600; font-style: normal; }
+
+    /* ============ FEATURED STRIP ============ */
+    .featured-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-soft);
+      padding: 3rem 0;
+    }
+    .featured-strip-inner {
+      display: flex; flex-direction: column; gap: 1.5rem;
+    }
+    @media (min-width: 768px) {
+      .featured-strip-inner { flex-direction: row; align-items: center; justify-content: space-between; }
+    }
+    .featured-strip .label {
+      font-size: .6875rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .22em;
+      color: var(--gold);
+    }
+    .featured-strip .label strong { color: var(--text); font-weight: 600; }
+    .featured-strip-meta {
+      display: flex; gap: 2rem; font-size: .8125rem; color: var(--text-mute); flex-wrap: wrap;
+    }
+    .featured-strip-meta span { display: flex; align-items: center; gap: .45rem; }
+    .featured-strip-meta svg { width: .9rem; height: .9rem; color: var(--gold); }
+
+    /* ============ BOOKS ============ */
+    .filters {
+      margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: .5rem;
+    }
+    .filter-pill {
+      padding: .55rem 1.15rem;
+      border: 1px solid var(--border);
+      background: transparent;
+      font-size: .8125rem; font-weight: 500;
+      color: var(--text-soft);
+      transition: all .25s;
+      border-radius: 100px;
+    }
+    .filter-pill:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      background: rgba(201, 169, 97, 0.04);
+    }
+    .filter-pill.active {
+      background: var(--gold); color: var(--ink);
+      border-color: var(--gold);
+      box-shadow: 0 4px 12px rgba(201, 169, 97, 0.25);
+    }
+
+    .books-grid {
+      margin-top: 3rem;
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.75rem 1rem;
+    }
+    @media (min-width: 640px) { .books-grid { grid-template-columns: repeat(3, 1fr); gap: 2.25rem 1.5rem; } }
+    @media (min-width: 1024px) { .books-grid { grid-template-columns: repeat(4, 1fr); gap: 2.75rem 1.75rem; } }
+
+    .book {
+      display: flex; flex-direction: column;
+      transition: transform .35s cubic-bezier(.4,0,.2,1);
+      animation: fadeUp .6s ease backwards;
+      cursor: pointer;
+      text-align: left;
+    }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .book:hover { transform: translateY(-8px); }
+
+    .book-cover-wrap {
+      position: relative;
+      aspect-ratio: 2 / 3;
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+      border-radius: 2px;
+    }
+    .book-cover-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform .6s cubic-bezier(.4,0,.2,1);
+    }
+    .book:hover .book-cover-wrap img { transform: scale(1.06); }
+
+    .book-cover-wrap::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 75%, rgba(0,0,0,0.35));
+      pointer-events: none;
+    }
+    .book-cover-wrap::before {
+      content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 3px;
+      background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+      z-index: 2;
+    }
+
+    .book-badge {
+      position: absolute; top: .65rem; left: .65rem;
+      padding: .25rem .65rem;
+      background: var(--gold); color: var(--ink);
+      font-size: .625rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .1em;
+      z-index: 3;
+      border-radius: 2px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    .book-info { margin-top: 1rem; flex: 1; display: flex; flex-direction: column; }
+    .book-title {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: .95rem; line-height: 1.3;
+      color: var(--text); letter-spacing: -0.005em;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden;
+      transition: color .25s;
+    }
+    .book:hover .book-title { color: var(--gold-bright); }
+    .book-genre {
+      margin-top: .35rem;
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .1em;
+      color: var(--text-mute); font-weight: 500;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .book-foot {
+      margin-top: .85rem; padding-top: .65rem; border-top: 1px dashed var(--border-soft);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .book-price {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: .9rem; color: var(--gold);
+    }
+    .book-view {
+      font-size: .6875rem; font-weight: 600; letter-spacing: .04em;
+      color: var(--text-mute); display: inline-flex; align-items: center; gap: .25rem;
+      transition: color .25s;
+      text-transform: uppercase;
+    }
+    .book:hover .book-view { color: var(--gold-bright); }
+    .book-view svg { width: .75rem; height: .75rem; transition: transform .25s; }
+    .book:hover .book-view svg { transform: translateX(2px); }
+
+    /* ============ FEATURED BOOKS (large editorial cards) ============ */
+    .featured-large {
+      display: grid; gap: 1.75rem;
+    }
+    @media (min-width: 768px) { .featured-large { grid-template-columns: repeat(2, 1fr); } }
+
+    .featured-book {
+      display: grid; grid-template-columns: 1fr 1.4fr; gap: 1.5rem;
+      padding: 1.75rem;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, var(--surface) 0%, var(--bg-soft) 100%);
+      transition: all .4s cubic-bezier(.4,0,.2,1);
+      border-radius: var(--radius-md);
+      position: relative; overflow: hidden;
+      cursor: pointer;
+      text-align: left;
+    }
+    .featured-book::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0; transition: opacity .35s;
+    }
+    .featured-book:hover {
+      border-color: var(--gold);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-gold);
+    }
+    .featured-book:hover::before { opacity: 1; }
+    @media (min-width: 640px) { .featured-book { grid-template-columns: 1fr 1.6fr; gap: 1.75rem; padding: 2rem; } }
+
+    .featured-book .cover-wrap {
+      aspect-ratio: 2 / 3; overflow: hidden; background: var(--bg);
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.4);
+      border-radius: 2px;
+    }
+    .featured-book .cover-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; background: var(--surface); }
+    .featured-book:hover .cover-wrap img { transform: scale(1.05); }
+
+    .featured-book .fb-tags { display: flex; gap: .4rem; flex-wrap: wrap; }
+    .fb-tag {
+      padding: .25rem .6rem;
+      background: rgba(201, 169, 97, 0.12);
+      color: var(--gold);
+      font-size: .625rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .1em;
+      border-radius: 2px;
+    }
+    .fb-tag.new { background: var(--gold); color: var(--ink); }
+
+    .featured-book h3 {
+      margin-top: 1rem;
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.25rem; line-height: 1.2; color: var(--text);
+      letter-spacing: -0.015em;
+    }
+    @media (min-width: 640px) { .featured-book h3 { font-size: 1.5rem; } }
+    .featured-book .sub {
+      margin-top: .45rem;
+      font-family: var(--font-serif); font-style: italic;
+      font-size: .9375rem; color: var(--text-mute); line-height: 1.5;
+    }
+    .featured-book .desc {
+      margin-top: 1rem;
+      font-size: .8125rem; line-height: 1.65; color: var(--text-soft);
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .featured-book .fb-foot {
+      margin-top: auto; padding-top: 1.25rem;
+      display: flex; justify-content: space-between; align-items: center; gap: .5rem;
+      flex-wrap: wrap;
+    }
+    .fb-formats { display: flex; gap: .35rem; flex-wrap: wrap; align-items: center; }
+    .fb-format {
+      padding: .2rem .55rem; border: 1px solid var(--border-soft);
+      font-size: .625rem; color: var(--text-mute); letter-spacing: .04em;
+      border-radius: 2px;
+    }
+    .fb-price {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: .95rem; color: var(--gold);
+    }
+    .fb-view {
+      font-size: .75rem; font-weight: 600; color: var(--gold);
+      display: inline-flex; align-items: center; gap: .35rem;
+      letter-spacing: .03em; text-transform: uppercase;
+    }
+    .fb-view svg { width: .85rem; height: .85rem; transition: transform .25s; }
+    .featured-book:hover .fb-view svg { transform: translateX(3px); }
+
+    /* ============ CTA STRIP ============ */
+    .cta-strip {
+      margin-top: 3rem;
+      padding: 2.5rem 2.75rem;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, var(--surface) 0%, var(--bg-soft) 100%);
+      display: flex; flex-direction: column; gap: 1.5rem;
+      align-items: flex-start; justify-content: space-between;
+      border-radius: var(--radius-md);
+      position: relative; overflow: hidden;
+    }
+    .cta-strip::before {
+      content: ''; position: absolute; top: -50%; right: -10%; width: 30rem; height: 30rem;
+      background: radial-gradient(circle, rgba(201, 169, 97, 0.08), transparent 70%);
+      pointer-events: none;
+    }
+    @media (min-width: 768px) { .cta-strip { flex-direction: row; align-items: center; } }
+    .cta-strip h3 {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.6rem; color: var(--text); letter-spacing: -0.02em;
+      position: relative;
+    }
+    .cta-strip p { margin-top: .5rem; color: var(--text-mute); font-size: .95rem; position: relative; }
+    .cta-strip .btns { display: flex; flex-wrap: wrap; gap: .75rem; position: relative; }
+
+    /* ============ ARTICLES ============ */
+    .articles-section {
+      background: linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .articles-grid {
+      margin-top: 3rem;
+      display: grid; gap: 1.5rem;
+    }
+    @media (min-width: 768px) { .articles-grid { grid-template-columns: repeat(2, 1fr); } }
+
+    .article {
+      position: relative; display: flex; flex-direction: column;
+      padding: 2.25rem;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, var(--surface), var(--bg-elev));
+      transition: all .35s cubic-bezier(.4,0,.2,1);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+      text-align: left;
+    }
+    @media (min-width: 768px) { .article { padding: 2.75rem; } }
+    .article::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .article.wine::before { background: linear-gradient(90deg, transparent, var(--wine-bright), transparent); }
+    .article.teal::before { background: linear-gradient(90deg, transparent, var(--teal-bright), transparent); }
+    .article:hover {
+      border-color: var(--gold);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-2);
+    }
+    .article.wine:hover { border-color: var(--wine-bright); }
+    .article.teal:hover { border-color: var(--teal-bright); }
+
+    .article-meta {
+      display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+      font-size: .75rem; color: var(--text-mute);
+    }
+    .article-cat {
+      padding: .3rem .75rem;
+      background: rgba(201, 169, 97, 0.12);
+      color: var(--gold);
+      font-weight: 600; letter-spacing: .04em;
+      border-radius: 2px;
+      font-size: .6875rem;
+    }
+    .article.wine .article-cat { background: var(--wine-soft); color: var(--wine-bright); }
+    .article.teal .article-cat { background: var(--teal-soft); color: var(--teal-bright); }
+    .article-meta span { display: inline-flex; align-items: center; gap: .4rem; }
+    .article-meta svg { width: .85rem; height: .85rem; color: var(--text-mute); }
+
+    .article h3 {
+      margin-top: 1.5rem;
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.55rem; line-height: 1.2; color: var(--text);
+      letter-spacing: -0.015em;
+      transition: color .25s;
+    }
+    @media (min-width: 768px) { .article h3 { font-size: 1.85rem; } }
+    .article:hover h3 { color: var(--gold-bright); }
+    .article.wine:hover h3 { color: var(--wine-bright); }
+    .article.teal:hover h3 { color: var(--teal-bright); }
+
+    .article p {
+      margin-top: 1.1rem; flex: 1;
+      font-size: .9375rem; line-height: 1.75; color: var(--text-soft);
+    }
+    .article .read {
+      margin-top: 1.75rem;
+      font-size: .8125rem; font-weight: 600; color: var(--gold);
+      display: inline-flex; align-items: center; gap: .45rem;
+      letter-spacing: .03em; text-transform: uppercase;
+    }
+    .article.wine .read { color: var(--wine-bright); }
+    .article.teal .read { color: var(--teal-bright); }
+    .article .read svg { width: .9rem; height: .9rem; transition: transform .25s; }
+    .article:hover .read svg { transform: translateX(5px); }
+
+    .read-all-wrap { margin-top: 3rem; text-align: center; }
+
+    /* ============ THEMES SECTION ============ */
+    .themes-section { background: var(--bg); }
+    .themes-grid {
+      margin-top: 3rem;
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem;
+    }
+    @media (min-width: 640px) { .themes-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1024px) { .themes-grid { grid-template-columns: repeat(4, 1fr); } }
+
+    .theme-card {
+      position: relative;
+      padding: 1.75rem 1.5rem;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: all .35s cubic-bezier(.4,0,.2,1);
+      cursor: pointer;
+      text-align: left;
+    }
+    .theme-card::before {
+      content: ''; position: absolute; inset: 0;
+      background: var(--theme-gradient, transparent);
+      opacity: 0; transition: opacity .35s;
+    }
+    .theme-card > * { position: relative; z-index: 1; }
+    .theme-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--theme-color, var(--gold));
+      box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+    }
+    .theme-card:hover::before { opacity: 1; }
+
+    .theme-icon {
+      width: 3rem; height: 3rem;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--theme-soft, rgba(201, 169, 97, 0.1));
+      color: var(--theme-color, var(--gold));
+      border-radius: var(--radius-md);
+      margin-bottom: 1.25rem;
+      transition: transform .35s;
+    }
+    .theme-card:hover .theme-icon { transform: scale(1.08) rotate(-4deg); }
+    .theme-icon svg { width: 1.5rem; height: 1.5rem; }
+    .theme-card h4 {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.1rem; color: var(--text); letter-spacing: -0.01em;
+    }
+    .theme-card p {
+      margin-top: .5rem;
+      font-size: .8125rem; color: var(--text-mute); line-height: 1.55;
+    }
+    .theme-count {
+      margin-top: 1rem;
+      font-family: var(--font-mono); font-size: .6875rem;
+      color: var(--theme-color, var(--gold));
+      letter-spacing: .08em; text-transform: uppercase;
+      display: inline-flex; align-items: center; gap: .35rem;
+    }
+    .theme-count svg { width: .75rem; height: .75rem; transition: transform .25s; }
+    .theme-card:hover .theme-count svg { transform: translateX(3px); }
+
+    /* ============ ABOUT ============ */
+    .about-grid {
+      display: grid; gap: 3rem; align-items: center;
+    }
+    @media (min-width: 1024px) { .about-grid { grid-template-columns: 5fr 7fr; gap: 5rem; } }
+
+    .about-portrait-wrap {
+      position: relative; max-width: 22rem; margin: 0 auto;
+      order: 2;
+    }
+    @media (min-width: 1024px) { .about-portrait-wrap { order: 1; } }
+
+    .about-portrait {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      border: 1px solid var(--border-strong);
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-3);
+    }
+    .about-portrait img {
+      width: 100%; height: 100%; object-fit: cover;
+      filter: contrast(1.05) saturate(0.85);
+    }
+    .about-portrait::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 70%, rgba(11,10,8,0.5));
+    }
+    .portrait-frame-deco {
+      position: absolute; top: -14px; left: -14px; right: 14px; bottom: 14px;
+      border: 1px solid var(--gold);
+      pointer-events: none; z-index: -1;
+      border-radius: var(--radius-md);
+    }
+    .about-portrait-stamp {
+      position: absolute; bottom: 1.5rem; left: 1.5rem; right: 1.5rem;
+      display: flex; justify-content: space-between; align-items: flex-end;
+      z-index: 2;
+    }
+    .about-portrait-stamp .name {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.15rem; color: var(--text);
+    }
+    .about-portrait-stamp .role {
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .18em;
+      color: var(--gold); margin-top: .2rem;
+    }
+    .about-portrait-stamp .est {
+      font-family: var(--font-mono); font-size: .6875rem;
+      color: var(--text-mute); letter-spacing: .1em;
+    }
+
+    .about-text { order: 1; }
+    @media (min-width: 1024px) { .about-text { order: 2; } }
+
+    .about-text p {
+      margin-top: 1.35rem;
+      font-size: 1.0625rem; line-height: 1.85;
+      color: var(--text-soft);
+    }
+    .about-text .author-name {
+      font-family: var(--font-display); font-weight: 700;
+      color: var(--gold); font-size: 1.15rem;
+      letter-spacing: -0.005em;
+    }
+
+    .about-facts {
+      margin-top: 2.75rem;
+      display: grid; gap: 1rem;
+    }
+    @media (min-width: 640px) { .about-facts { grid-template-columns: repeat(2, 1fr); } }
+    .fact {
+      display: flex; gap: 1rem;
+      padding: 1.1rem 1.2rem;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, var(--surface), var(--bg-soft));
+      border-radius: var(--radius-md);
+      transition: all .3s;
+    }
+    .fact:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-2);
+    }
+    .fact svg {
+      width: 1.25rem; height: 1.25rem; flex-shrink: 0;
+      color: var(--gold); margin-top: .2rem;
+    }
+    .fact-label {
+      font-size: .625rem; text-transform: uppercase; letter-spacing: .18em;
+      color: var(--text-mute); font-weight: 600;
+    }
+    .fact-value {
+      margin-top: .25rem; font-size: .9375rem; font-weight: 500;
+      color: var(--text);
+    }
+
+    .about-topics-label {
+      margin-top: 2.25rem;
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .2em;
+      color: var(--text-mute); font-weight: 600;
+    }
+    .about-topics {
+      margin-top: .85rem;
+      display: flex; flex-wrap: wrap; gap: .5rem;
+    }
+    .topic {
+      padding: .35rem .85rem;
+      border: 1px solid var(--border-soft);
+      font-size: .75rem; color: var(--text-soft);
+      border-radius: 100px;
+      transition: all .25s;
+      cursor: default;
+    }
+    .topic:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      background: rgba(201, 169, 97, 0.05);
+    }
+
+    /* ============ QUOTE BLOCK ============ */
+    .quote-block {
+      padding: 5rem 0;
+      background:
+        radial-gradient(ellipse at center, rgba(139, 38, 53, 0.06), transparent 60%),
+        var(--bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .quote-block-inner {
+      max-width: 50rem; margin: 0 auto; text-align: center; padding: 0 1.5rem;
+    }
+    .quote-mark {
+      font-family: var(--font-display); font-size: 5rem;
+      color: var(--gold); opacity: .3; line-height: 1;
+      margin-bottom: -.5rem;
+    }
+    .quote-text {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem); line-height: 1.45;
+      color: var(--text); letter-spacing: -0.005em;
+    }
+    .quote-author {
+      margin-top: 2rem;
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.1rem; color: var(--gold-bright);
+    }
+    .quote-author::before {
+      content: '— '; color: var(--text-mute);
+    }
+
+    /* ============ PLATFORMS ============ */
+    .platforms-section {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .platforms-grid {
+      margin-top: 3rem;
+      display: grid; gap: 1.5rem;
+    }
+    @media (min-width: 768px) { .platforms-grid { grid-template-columns: repeat(2, 1fr); } }
+
+    .platform {
+      position: relative; padding: 2.5rem;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, var(--surface), var(--bg-soft));
+      transition: all .35s cubic-bezier(.4,0,.2,1);
+      overflow: hidden;
+      border-radius: var(--radius-md);
+    }
+    .platform::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--gold);
+    }
+    .platform::after {
+      content: ''; position: absolute; top: -40%; right: -10%; width: 25rem; height: 25rem;
+      background: radial-gradient(circle, rgba(201, 169, 97, 0.08), transparent 65%);
+      pointer-events: none; transition: opacity .35s;
+      opacity: 0;
+    }
+    .platform.d2d::before { background: var(--sage); }
+    .platform.d2d::after { background: radial-gradient(circle, rgba(111, 139, 106, 0.1), transparent 65%); }
+    .platform:hover {
+      border-color: var(--gold); transform: translateY(-5px);
+      box-shadow: var(--shadow-2);
+    }
+    .platform:hover::after { opacity: 1; }
+    .platform.d2d:hover { border-color: var(--sage); }
+
+    .platform-head {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      position: relative; z-index: 1;
+    }
+    .platform-icon {
+      width: 3.75rem; height: 3.75rem;
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--border-strong);
+      background: rgba(201, 169, 97, 0.06);
+      color: var(--gold);
+      border-radius: var(--radius-md);
+      transition: all .35s;
+    }
+    .platform:hover .platform-icon {
+      background: rgba(201, 169, 97, 0.12);
+      transform: scale(1.05);
+    }
+    .platform.d2d .platform-icon {
+      background: rgba(111, 139, 106, 0.08);
+      color: var(--sage-bright);
+    }
+    .platform.d2d:hover .platform-icon { background: rgba(111, 139, 106, 0.16); }
+    .platform-icon svg { width: 1.65rem; height: 1.65rem; }
+    .platform-arrow { color: var(--text-mute); transition: all .3s; }
+    .platform-arrow svg { width: 1.35rem; height: 1.35rem; }
+    .platform:hover .platform-arrow { color: var(--gold); transform: translate(4px, -4px); }
+    .platform.d2d:hover .platform-arrow { color: var(--sage-bright); }
+
+    .platform h3 {
+      margin-top: 1.75rem;
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.6rem; color: var(--text); letter-spacing: -0.015em;
+      position: relative; z-index: 1;
+    }
+    .platform p {
+      margin-top: .65rem; font-size: .9375rem; color: var(--text-mute); line-height: 1.65;
+      position: relative; z-index: 1;
+    }
+    .platform-tags {
+      margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: .45rem;
+      position: relative; z-index: 1;
+    }
+    .platform-tag {
+      padding: .3rem .7rem;
+      border: 1px solid var(--border-soft);
+      font-size: .6875rem; color: var(--text-soft);
+      border-radius: 2px;
+      letter-spacing: .04em;
+    }
+
+    .platform-features {
+      margin-top: 3rem;
+      display: grid; gap: 1rem;
+    }
+    @media (min-width: 640px) { .platform-features { grid-template-columns: repeat(3, 1fr); } }
+    .pfeature {
+      padding: 1.75rem;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      transition: all .3s;
+      text-align: center;
+    }
+    .pfeature:hover { border-color: var(--gold); transform: translateY(-3px); }
+    .pfeature svg { width: 1.65rem; height: 1.65rem; color: var(--gold); margin: 0 auto; }
+    .pfeature h4 {
+      margin-top: 1rem;
+      font-family: var(--font-display); font-weight: 600;
+      font-size: 1.1rem; color: var(--text);
+    }
+    .pfeature p {
+      margin-top: .35rem; font-size: .875rem; color: var(--text-mute);
+    }
+
+    /* ============ CONTACT ============ */
+    .contact-section {
+      text-align: center;
+      background:
+        radial-gradient(ellipse at center top, rgba(201, 169, 97, 0.06), transparent 60%),
+        var(--bg);
+    }
+    .contact-section .section-head { margin: 0 auto; }
+    .contact-email {
+      margin-top: 2.75rem;
+      display: inline-flex; align-items: center; gap: .9rem;
+      padding: 1.1rem 2.25rem;
+      border: 1px solid var(--gold);
+      background: linear-gradient(135deg, rgba(201, 169, 97, 0.06), rgba(201, 169, 97, 0.02));
+      font-family: var(--font-display); font-size: 1.15rem;
+      color: var(--gold-bright);
+      border-radius: 100px;
+      transition: all .3s;
+      box-shadow: 0 8px 24px rgba(201, 169, 97, 0.1);
+    }
+    .contact-email:hover {
+      background: rgba(201, 169, 97, 0.1);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(201, 169, 97, 0.2);
+    }
+    .contact-email svg { width: 1.3rem; height: 1.3rem; }
+
+    .quick-links {
+      margin-top: 2.5rem;
+      display: flex; flex-wrap: wrap; gap: .85rem; justify-content: center;
+    }
+    .qlink {
+      display: inline-flex; align-items: center; gap: .55rem;
+      padding: .7rem 1.25rem;
+      border: 1px solid var(--border);
+      font-size: .8125rem; color: var(--text-soft);
+      transition: all .25s;
+      border-radius: 100px;
+      background: rgba(27, 22, 16, 0.4);
+      backdrop-filter: blur(8px);
+    }
+    .qlink:hover {
+      border-color: var(--gold); color: var(--gold-bright);
+      background: rgba(201, 169, 97, 0.06);
+      transform: translateY(-2px);
+    }
+    .qlink svg { width: 1rem; height: 1rem; }
+
+    /* ============ FOOTER ============ */
+    .footer {
+      border-top: 1px solid var(--border);
+      background: var(--bg-soft);
+      padding: 4.5rem 0 2rem;
+    }
+    .footer-grid {
+      display: grid; gap: 2.75rem;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 768px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr; } }
+
+    .footer-brand .logo { margin-bottom: 1.25rem; }
+    .footer-desc {
+      font-size: .9375rem; line-height: 1.75; color: var(--text-mute);
+      max-width: 28rem;
+    }
+    .footer-col h4 {
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .22em;
+      color: var(--gold); font-weight: 600;
+    }
+    .footer-col ul { margin-top: 1.1rem; list-style: none; }
+    .footer-col li { margin-bottom: .7rem; }
+    .footer-col a {
+      font-size: .875rem; color: var(--text-soft);
+      display: inline-flex; align-items: center; gap: .55rem;
+      transition: color .2s;
+    }
+    .footer-col a:hover { color: var(--gold-bright); }
+    .footer-col a svg { width: .9rem; height: .9rem; }
+
+    .footer-bottom {
+      margin-top: 3rem; padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: .6rem;
+      align-items: center; justify-content: space-between;
+    }
+    @media (min-width: 640px) { .footer-bottom { flex-direction: row; } }
+    .footer-copy { font-size: .75rem; color: var(--muted-deep); }
+    .footer-motto {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: .9rem; color: var(--text-mute);
+      letter-spacing: .02em;
+    }
+
+    .hidden { display: none !important; }
+
+    /* Reveal on scroll */
+    .reveal { opacity: 0; transform: translateY(30px); transition: opacity .8s ease, transform .8s cubic-bezier(.4,0,.2,1); }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+
+    /* ============ MODAL ============ */
+    .modal-backdrop {
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(11, 10, 8, 0.85);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      opacity: 0; visibility: hidden;
+      transition: opacity .3s ease, visibility .3s;
+      display: flex; align-items: center; justify-content: center;
+      padding: 1.5rem;
+      overflow-y: auto;
+    }
+    .modal-backdrop.open { opacity: 1; visibility: visible; }
+
+    .modal {
+      position: relative;
+      max-width: 56rem; width: 100%;
+      background: linear-gradient(180deg, var(--surface) 0%, var(--bg-elev) 100%);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-3);
+      max-height: 92vh; overflow-y: auto;
+      transform: translateY(20px) scale(.98); opacity: 0;
+      transition: all .4s cubic-bezier(.4,0,.2,1);
+      margin: auto;
+    }
+    .modal-backdrop.open .modal { transform: translateY(0) scale(1); opacity: 1; }
+    @media (max-width: 640px) {
+      .modal { max-height: 90vh; border-radius: var(--radius-md); }
+      .modal-body, .modal-article-body { padding: 1.75rem 1.25rem 1.5rem !important; }
+      .modal-grid { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
+      .modal-cover-wrap { max-width: 180px; margin: 0 auto; }
+      .modal-close { top: .65rem; right: .65rem; width: 2.25rem; height: 2.25rem; }
+      .modal-title { font-size: 1.4rem !important; }
+    }
+
+    .modal-close {
+      position: absolute; top: 1rem; right: 1rem; z-index: 5;
+      width: 2.5rem; height: 2.5rem;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(27, 22, 16, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      color: var(--text-soft);
+      backdrop-filter: blur(8px);
+      transition: all .25s;
+    }
+    .modal-close:hover {
+      background: var(--gold); color: var(--ink);
+      border-color: var(--gold); transform: rotate(90deg);
+    }
+    .modal-close svg { width: 1.25rem; height: 1.25rem; }
+
+    .modal-body { padding: 2.5rem 2rem 2rem; }
+    @media (min-width: 640px) { .modal-body { padding: 3rem 3rem 2.5rem; } }
+
+    .modal-grid {
+      display: grid; gap: 2rem;
+    }
+    @media (min-width: 640px) { .modal-grid { grid-template-columns: 200px 1fr; gap: 2.5rem; } }
+
+    .modal-cover-wrap {
+      position: relative;
+    }
+    .modal-cover {
+      aspect-ratio: 2 / 3;
+      overflow: hidden;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+      border-radius: 2px;
+    }
+    .modal-cover img { width: 100%; height: 100%; object-fit: cover; }
+
+    .modal-cover-tag {
+      margin-top: 1rem; padding: .5rem .8rem;
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: rgba(201, 169, 97, 0.1);
+      border: 1px solid var(--border-soft);
+      border-radius: 100px;
+      font-size: .6875rem; color: var(--gold);
+      text-transform: uppercase; letter-spacing: .15em; font-weight: 600;
+    }
+
+    .modal-content { display: flex; flex-direction: column; }
+    .modal-eyebrow {
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .22em;
+      color: var(--gold); font-weight: 600;
+    }
+    .modal-title {
+      margin-top: .85rem;
+      font-family: var(--font-display); font-weight: 700;
+      font-size: 1.75rem; line-height: 1.15; color: var(--text);
+      letter-spacing: -0.02em;
+    }
+    @media (min-width: 640px) { .modal-title { font-size: 2.1rem; } }
+    .modal-subtitle {
+      margin-top: .65rem;
+      font-family: var(--font-serif); font-style: italic;
+      font-size: 1.05rem; color: var(--text-mute); line-height: 1.55;
+    }
+
+    .modal-meta-row {
+      margin-top: 1.5rem;
+      display: flex; flex-wrap: wrap; gap: .6rem;
+    }
+    .modal-meta-pill {
+      padding: .35rem .8rem;
+      border: 1px solid var(--border-soft);
+      border-radius: 100px;
+      font-size: .6875rem; color: var(--text-soft);
+      letter-spacing: .04em;
+      display: inline-flex; align-items: center; gap: .35rem;
+    }
+    .modal-meta-pill svg { width: .8rem; height: .8rem; color: var(--gold); }
+    .modal-meta-pill.price {
+      background: var(--gold); color: var(--ink); border-color: var(--gold);
+      font-weight: 700;
+    }
+    .modal-meta-pill.price svg { color: var(--ink); }
+
+    .modal-section {
+      margin-top: 1.75rem;
+    }
+    .modal-section-label {
+      font-size: .6875rem; text-transform: uppercase; letter-spacing: .2em;
+      color: var(--text-mute); font-weight: 600; margin-bottom: .65rem;
+    }
+    .modal-desc {
+      font-size: .95rem; line-height: 1.75; color: var(--text-soft);
+    }
+
+    .modal-tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .modal-tag {
+      padding: .25rem .65rem;
+      background: rgba(201, 169, 97, 0.08);
+      border: 1px solid var(--border-soft);
+      border-radius: 2px;
+      font-size: .6875rem; color: var(--text-soft);
+      letter-spacing: .04em;
+    }
+
+    .modal-actions {
+      margin-top: 2rem;
+      display: flex; flex-wrap: wrap; gap: .75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Article modal layout */
+    .modal-article-body { padding: 2.5rem 2rem 2rem; }
+    @media (min-width: 640px) { .modal-article-body { padding: 3rem 3.5rem 2.5rem; } }
+    .modal-article-meta {
+      display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+      font-size: .75rem; color: var(--text-mute);
+      margin-bottom: 1.25rem;
+    }
+    .modal-article-title {
+      font-family: var(--font-display); font-weight: 700;
+      font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.15;
+      color: var(--text); letter-spacing: -0.02em;
+    }
+    .modal-article-divider {
+      margin: 1.75rem 0;
+      height: 1px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+    }
+    .modal-article-content p {
+      margin-bottom: 1.25rem;
+      font-size: 1rem; line-height: 1.85;
+      color: var(--text-soft);
+    }
+    .modal-article-content p.lead {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: 1.2rem; color: var(--text);
+      border-left: 2px solid var(--gold);
+      padding-left: 1.25rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+      .marquee-track { animation: none; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#home" class="logo">
+          <div class="logo-mark">SF</div>
+          <div class="logo-text">
+            <div class="name">Sado Faraji</div>
+            <div class="role">Author · Historian</div>
+          </div>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="#vitabu" class="nav-link">Books</a>
+          <a href="#makala" class="nav-link">Articles</a>
+          <a href="#mada" class="nav-link">Themes</a>
+          <a href="#kuhusu" class="nav-link">About</a>
+          <a href="#mauzo" class="nav-link">Buy</a>
+          <a href="#wasiliana" class="nav-link">Contact</a>
+          <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="nav-cta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            Buy Books
+          </a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">
+          <svg id="menuIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <div class="container">
+        <a href="#vitabu">Books</a>
+        <a href="#makala">Articles</a>
+        <a href="#mada">Themes</a>
+        <a href="#kuhusu">About</a>
+        <a href="#mauzo">Buy</a>
+        <a href="#wasiliana">Contact</a>
+        <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Buy Books
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="dot"></span>
+            Official Author Website
+          </div>
+
+          <h1 class="hero-title">
+            <span class="l1">Sado</span>
+            <span class="l2">Faraji</span>
+          </h1>
+
+          <p class="hero-tagline">Author · Historian · Critical Thinker</p>
+
+          <p class="hero-lead">
+            From Dar es Salaam, Tanzania — an author exploring history,
+            faith, and narrative. His work blends Islamic scholarship,
+            cultural critique, and allegorical fiction.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Buy on Amazon
+            </a>
+            <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              Draft2Digital
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">16+</div>
+              <div class="stat-label">Books</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">8+</div>
+              <div class="stat-label">Genres</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Platforms</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-portrait">
+            <div class="portrait-frame">
+              <img src="images/author-portrait.jpg" alt="Sado Faraji — Author and Historian" />
+              <div class="portrait-meta">
+                <div>
+                  <div class="name">Sado Faraji</div>
+                  <div class="loc">Dar es Salaam · Tanzania</div>
+                </div>
+                <div class="since">Est. 2024</div>
+              </div>
+            </div>
+            <div class="portrait-badge">Official<br/>Site</div>
+          </div>
+
+          <div class="hero-quote">
+            <p>"His work weaves together history, faith, and narrative — seeking to understand the collision between tradition and modernity."</p>
+            <div class="attr">— On the Writing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE STRIP ============ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item"><strong>African</strong> History<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Islamic</strong> Civilization<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Allegorical</strong> Fiction<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Middle Eastern</strong> Politics<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Religious</strong> Critique<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Information</strong> Warfare<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Technology</strong> &amp; Society<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>African</strong> History<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Islamic</strong> Civilization<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Allegorical</strong> Fiction<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Middle Eastern</strong> Politics<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Religious</strong> Critique<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Information</strong> Warfare<span class="dot">✦</span></span>
+      <span class="marquee-item"><strong>Technology</strong> &amp; Society<span class="dot">✦</span></span>
+    </div>
+  </div>
+
+  <!-- ============ FEATURED STRIP ============ -->
+  <div class="featured-strip">
+    <div class="container">
+      <div class="featured-strip-inner">
+        <div class="label"><strong>Sado Faraji</strong> · Author · Historian · Critic</div>
+        <div class="featured-strip-meta">
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            16+ Books
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            History · Religion · Fiction
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            English · Swahili
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ NEW RELEASES ============ -->
+  <section style="padding-top: 5.5rem; padding-bottom: 3rem;">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Recently Published</div>
+        <h2 class="section-title">New <em>Releases</em></h2>
+      </div>
+      <div class="featured-large" id="featuredLarge"></div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKS LIBRARY ============ -->
+  <section id="vitabu" style="padding-top: 3rem;">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Full Library</div>
+        <h2 class="section-title">Published <em>Books</em></h2>
+        <p class="section-desc">
+          Books spanning history, religion, politics, fiction and fantasy.
+          Each title is available for purchase on Amazon and Draft2Digital.
+          <strong style="color: var(--gold);">Click any card to read more.</strong>
+        </p>
+      </div>
+
+      <div class="filters" id="filters"></div>
+      <div class="books-grid" id="booksGrid"></div>
+
+      <div class="cta-strip reveal">
+        <div>
+          <h3>Have questions about any book?</h3>
+          <p>Reach out with feedback, requests, or new topics you'd like to see covered.</p>
+        </div>
+        <div class="btns">
+          <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            Amazon
+          </a>
+          <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Draft2Digital
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THEMES ============ -->
+  <section id="mada" class="themes-section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Themes He Writes About</div>
+        <h2 class="section-title">Scope of <em>Writing</em></h2>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">
+          Eight literary domains that define Sado Faraji's body of work —
+          from historical analysis to allegorical fiction, each with its own force and intent.
+          <strong style="color: var(--gold);">Click any theme to filter the library.</strong>
+        </p>
+      </div>
+
+      <div class="themes-grid" id="themesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ ARTICLES ============ -->
+  <section id="makala" class="articles-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Recent Articles</div>
+        <h2 class="section-title">In-Depth <em>Analysis</em></h2>
+        <p class="section-desc">
+          Articles examining complex themes through a historical lens
+          and philosophical critique.
+          <strong style="color: var(--gold);">Click any article to read the full piece.</strong>
+        </p>
+      </div>
+
+      <div class="articles-grid" id="articlesGrid"></div>
+
+      <div class="read-all-wrap reveal">
+        <a href="https://sadofaraji.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Read All Articles
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE BLOCK ============ -->
+  <section class="quote-block">
+    <div class="quote-block-inner reveal">
+      <div class="quote-mark">"</div>
+      <p class="quote-text">
+        Writing from the margins of empire, he recovers the stories that
+        colonial states, religious authorities, and political dynasties
+        sought to erase or conceal.
+      </p>
+      <div class="quote-author">Sado Faraji, on his work</div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="kuhusu">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-portrait-wrap reveal">
+          <div class="portrait-frame-deco"></div>
+          <div class="about-portrait">
+            <img src="images/author-portrait.jpg" alt="Sado Faraji" />
+            <div class="about-portrait-stamp">
+              <div>
+                <div class="name">Sado Faraji</div>
+                <div class="role">Author · Historian</div>
+              </div>
+              <div class="est">EST. 2024</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <div class="eyebrow">About the Author</div>
+          <h2 class="section-title">About <em>Sado Faraji</em></h2>
+
+          <p>
+            <span class="author-name">SADO FARAJI</span> is an author and historian
+            from Dar es Salaam, Tanzania. His work blends history, faith,
+            and narrative — building a bridge between Islamic scholarship,
+            cultural critique, and allegorical fiction.
+          </p>
+          <p>
+            Through novels, plays, and scholarly works, he explores the collision
+            between tradition and modernity, betrayal and loyalty, love and life.
+            His writing carries allegorical force — written with the intent
+            to be heard across generations.
+          </p>
+          <p>
+            Writing from the margins of empire, he recovers the stories that
+            colonial states, religious authorities, and political dynasties
+            sought to erase or conceal.
+          </p>
+
+          <div class="about-facts">
+            <div class="fact">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <div class="fact-label">Origin</div>
+                <div class="fact-value">Dar es Salaam, Tanzania</div>
+              </div>
+            </div>
+            <div class="fact">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              <div>
+                <div class="fact-label">Body of Work</div>
+                <div class="fact-value">History · Religion · Fiction · Fantasy</div>
+              </div>
+            </div>
+            <div class="fact">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <div>
+                <div class="fact-label">Languages</div>
+                <div class="fact-value">English · Swahili · Arabic</div>
+              </div>
+            </div>
+            <div class="fact">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+              <div>
+                <div class="fact-label">Core Themes</div>
+                <div class="fact-value">Power · Resistance · Dignity</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-topics-label">Topics He Writes About</div>
+          <div class="about-topics">
+            <span class="topic">African History</span>
+            <span class="topic">Islamic Civilization</span>
+            <span class="topic">Social Justice</span>
+            <span class="topic">Middle East Politics</span>
+            <span class="topic">Religious Critique</span>
+            <span class="topic">Allegorical Fiction</span>
+            <span class="topic">Information Warfare</span>
+            <span class="topic">Technology &amp; Society</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORMS ============ -->
+  <section id="mauzo" class="platforms-section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow" style="justify-content: center;">Sales Platforms</div>
+        <h2 class="section-title">Download or <em>Buy</em> Books</h2>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">
+          Sado Faraji's books are available on these major platforms.
+          Choose your preferred store — each link takes you to the author's page.
+        </p>
+      </div>
+
+      <div class="platforms-grid">
+        <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="platform reveal">
+          <div class="platform-head">
+            <div class="platform-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </div>
+            <div class="platform-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </div>
+          </div>
+          <h3>Amazon</h3>
+          <p>Buy Kindle and Paperback editions. The author's official page on the Amazon Author Store.</p>
+          <div class="platform-tags">
+            <span class="platform-tag">Kindle</span>
+            <span class="platform-tag">Paperback</span>
+            <span class="platform-tag">Kindle Unlimited</span>
+          </div>
+        </a>
+
+        <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" rel="noopener noreferrer" class="platform d2d reveal">
+          <div class="platform-head">
+            <div class="platform-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="platform-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </div>
+          </div>
+          <h3>Draft2Digital</h3>
+          <p>Books2Read — universal links to all platforms: Apple Books, Kobo, Barnes &amp; Noble, and more.</p>
+          <div class="platform-tags">
+            <span class="platform-tag">Apple Books</span>
+            <span class="platform-tag">Kobo</span>
+            <span class="platform-tag">Barnes &amp; Noble</span>
+            <span class="platform-tag">Scribd</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="platform-features">
+        <div class="pfeature reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <h4>Read Anywhere</h4>
+          <p>On phone, tablet, Kindle, or computer.</p>
+        </div>
+        <div class="pfeature reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <h4>Many Platforms</h4>
+          <p>Choose your preferred store worldwide.</p>
+        </div>
+        <div class="pfeature reveal">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 6.5L20 10l-5.5 3.5L16 20l-4-4-4 4 1.5-6.5L4 10l6.5-1.5L12 2z"/></svg>
+          <h4>New Releases</h4>
+          <p>Added regularly to my account.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="wasiliana" class="contact-section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow" style="justify-content: center;">Get in Touch</div>
+        <h2 class="section-title">Send a <em>Message</em></h2>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">
+          For feedback, questions, or interview requests — reach out by email.
+          We'd love to hear from you.
+        </p>
+      </div>
+
+      <a href="mailto:info@sadofaraji.com" class="contact-email reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+        info@sadofaraji.com
+      </a>
+
+      <div class="quick-links reveal">
+        <a href="https://sadofaraji.com/" target="_blank" rel="noopener noreferrer" class="qlink">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Main Website
+        </a>
+        <a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer" class="qlink">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Amazon
+        </a>
+        <a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" rel="noopener noreferrer" class="qlink">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Books2Read
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-mark">SF</div>
+            <div class="logo-text">
+              <div class="name">Sado Faraji</div>
+              <div class="role">Author · Historian</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Author and historian from Dar es Salaam, Tanzania.
+            Works examining power, resistance, and human dignity.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#vitabu">Books</a></li>
+            <li><a href="#makala">Articles</a></li>
+            <li><a href="#mada">Themes</a></li>
+            <li><a href="#kuhusu">About</a></li>
+            <li><a href="#mauzo">Buy</a></li>
+            <li><a href="#wasiliana">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Platforms</h4>
+          <ul>
+            <li><a href="https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Amazon
+            </a></li>
+            <li><a href="https://books2read.com/ap/xy0Abp/Sado-Faraji" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              Books2Read
+            </a></li>
+            <li><a href="mailto:info@sadofaraji.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+              info@sadofaraji.com
+            </a></li>
+            <li><a href="https://sadofaraji.com/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              sadofaraji.com
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">© <span id="year"></span> Sado Faraji. All rights reserved.</div>
+        <div class="footer-motto">Verba volent, scripta manent.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" id="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    const AMAZON_URL = "https://www.amazon.com/stores/Sado-Faraji/author/B0G5BR5YLF?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=299f89de-9f09-4b49-a1fc-b10fc8154cc9";
+    const BOOKS2READ_URL = "https://books2read.com/ap/xy0Abp/Sado-Faraji";
+    const WEBSITE_URL = "https://sadofaraji.com/";
+
+    const books = [
+      { id: "oktoba-29", title: "Oktoba 29 na Vita vya Algorithm", subtitle: "Modern Espionage: Technology, Propaganda and Resources Against the Sovereignty of Nations", genre: "Espionage · Politics · Technology", category: "Espionage", description: "An in-depth examination of how technology, propaganda, and resources are weaponized to undermine the sovereignty of nations — exploring modern hybrid warfare and the algorithmic colonization of attention.", longDescription: "In this investigative work, Sado Faraji unpacks the architecture of modern espionage — where algorithms, propaganda networks, and resource extraction converge into a single apparatus of control. The book traces how sovereign nations are destabilized not by tanks but by data flows, manipulated narratives, and digital dependencies. From the surveillance economy to covert regime-change operations, it maps the new geography of power and asks who truly governs in the age of the algorithm.", series: "Digital Insurrection", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-oktoba-29.jpg", featured: true, newRelease: true, pages: 312, year: 2025 },
+      { id: "spirit-of-resistance", title: "Spirit of Resistance", subtitle: "The Legend of Mkwawa — The untold story of resistance against colonial oppression in East Africa", genre: "Historical Biography", category: "History", description: "The unforgettable story of Chief Mkwawa and his resistance against German colonial rule in Tanzania — a legend that refuses to be silenced.", longDescription: "Spirit of Resistance revives the legend of Chief Mkwawa, the Hehe leader who defied German colonial forces in East Africa for over seven years. Through meticulous historical research and vivid narrative prose, Sado Faraji reconstructs the battles, the betrayals, and the unyielding dignity of a man whose skull was looted as a trophy and returned only after decades of diplomatic struggle. This is not just biography — it is an act of historical restoration.", series: "Defiance Legacy", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-spirit-resistance.jpg", featured: true, pages: 286, year: 2024 },
+      { id: "blind-obedience", title: "Blind Obedience", subtitle: "Conscience, Faith, and the Quiet Danger of Obedience Without Question", genre: "Religious Critique · Faith", category: "Religion", description: "A profound examination of the danger of obedience without question — exploring the relationship between religion, faith, and freedom of thought.", longDescription: "Blind Obedience interrogates one of the most uncomfortable questions in religious life: what happens when faith becomes obedience without conscience? Drawing from Islamic theology, comparative religion, and the histories of both empire and resistance, Sado Faraji argues that the quiet surrender of personal judgment is the soil in which every form of spiritual tyranny takes root. The book is at once a philosophical critique, a theological reflection, and a quiet call to recover the moral courage of dissent.", series: "Blind Obedience Series", formats: ["Kindle", "Paperback"], price: "$5.99", cover: "cover-blind-obedience.jpg", featured: true, pages: 248, year: 2024 },
+      { id: "binding-of-ash", title: "The Binding of Ash and Storm", subtitle: "A Polyamorous Fantasy Romance — where fire, ash, and forbidden bonds collide", genre: "Fantasy Romance", category: "Fantasy", description: "A unique fantasy romance novel weaving fire, ash, and forbidden relationships into an unforgettable narrative.", longDescription: "In a world where elemental bonds are both power and curse, three souls are bound by ash and storm — a romance that defies the conventions of kingdom and creed. Sado Faraji's first fantasy romance is a story of forbidden love, ancient pacts, and the cost of desire in a realm where magic is inseparable from memory. Book One of The Trinity Chronicles.", series: "The Trinity Chronicles: Book One", formats: ["Kindle", "Paperback"], price: "$2.99", cover: "cover-binding-ash.jpg", pages: 342, year: 2024 },
+      { id: "djinn-prince-pact", title: "The Djinn Prince's Pact", subtitle: "A Romantasy of Legacy and Whispers — ancient pacts, forbidden power, and destiny", genre: "Romantasy · Fantasy", category: "Fantasy", description: "Ancient pacts, forbidden power, and destiny. A novel blending fantasy, romance, and Islamic jinns mythology.", longDescription: "A young prince inherits more than a throne — he inherits a pact struck with the unseen world generations before his birth. As he navigates court intrigue, forbidden love, and the whispers of beings who exist beyond the veil of human perception, he must decide whether to honor the old covenant or break it at the cost of his lineage. Drawing from Islamic mythology of the jinn, Sado Faraji crafts a romantasy where power, faith, and desire entwine.", series: "The Eternal Pact Volume 1", formats: ["Kindle", "Paperback"], price: "$3.99", cover: "cover-djinn-prince.jpg", featured: true, pages: 298, year: 2024 },
+      { id: "indelible-archive", title: "The Indelible Archive", subtitle: "When the Erased Refuse to Stay Silent — A powerful narrative of memory and resistance", genre: "Literary Fiction", category: "Fiction", description: "A powerful novel about memory and resistance. When the erased refuse to stay silent, a story is born.", longDescription: "Set across three generations and two continents, The Indelible Archive follows a librarian who discovers that the records of an entire community have been systematically erased from the official archive. As she pieces together fragments — letters, songs, photographs, oral testimonies — she becomes the keeper of a memory that the state would prefer forgotten. A meditation on what we owe the dead, and what the dead owe the living.", series: "The Indelible Archive", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-indelible-archive.jpg", pages: 376, year: 2024 },
+      { id: "shadows-desert", title: "Shadows of the Desert", subtitle: "The Role of Zionism in the Birth of Saudi Arabia — An investigative historical analysis", genre: "Middle East History", category: "History", description: "A historical investigation into the role of Zionism in the birth of Saudi Arabia — exploring the hidden alliances of the modern Middle East.", longDescription: "Shadows of the Desert is an investigative historical analysis that traces the often-overlooked connections between the Zionist movement and the formation of the Saudi state. Drawing on diplomatic archives, declassified correspondence, and the testimony of contemporary observers, Sado Faraji maps a landscape of pragmatic alliances, religious manipulation, and geopolitical calculation that reshaped the modern Middle East. The book challenges conventional narratives and asks whose interests were truly served by the borders drawn in the sand.", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-shadows-desert.jpg", featured: true, pages: 264, year: 2024 },
+      { id: "caliphate-foundations", title: "Caliphate and the Foundations of Dispute", subtitle: "The Role of Umar Ibn al-Khattab in Shaping the Political Legacy of the Prophet", genre: "Islamic History", category: "Religion", description: "A scholarly analysis of the role of Umar Ibn al-Khattab in shaping the political legacy of the Prophet Muhammad.", longDescription: "Caliphate and the Foundations of Dispute examines the political theology of the early Islamic state through the figure of Umar Ibn al-Khattab, the second caliph. Sado Faraji argues that many of the structural disputes that would later fracture the Muslim community were not accidents of history but consequences of deliberate institutional choices made during Umar's reign. The book navigates between hagiography and secular skepticism to recover a more honest portrait of how political Islam was — and wasn't — built.", series: "Architecture of Power", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-caliphate.jpg", pages: 312, year: 2024 },
+      { id: "mtego-wa-kafara", title: "Mtego wa Kafara", subtitle: "How Youth Were Turned Into Weapons Against the Republic", genre: "Swahili Literature", category: "Drama", description: "A Swahili novel examining how youth are weaponized as political instruments against the republic.", longDescription: "Mtego wa Kafara (The Trap of Sacrifice) is a Swahili-language novel that examines the seduction of young people into political violence — how grievance is harvested, how loyalty is manufactured, and how a generation can be turned into a weapon against the very republic that raised it. Written in the cadence of Kiswahili's literary tradition, it is both a story and a warning.", series: "Mtego wa Kafara Series", formats: ["Kindle", "Paperback"], price: "$3.99", cover: "cover-mtego-kafara.jpg", pages: 256, year: 2024 },
+      { id: "digital-insurrection", title: "Digital Insurrection", subtitle: "The Collapse of Truth — How Information Warfare, AI Manipulation, and Psychological Control Are Reshaping Humanity", genre: "Political Analysis", category: "Technology", description: "Information warfare, AI control, and psychological manipulation. A book examining how truth itself is collapsing.", longDescription: "Digital Insurrection is a sweeping analysis of the new terrain of power: the war for truth itself. From AI-driven propaganda to the gamification of belief, from the privatization of censorship to the algorithmic engineering of consent, Sado Faraji argues that humanity is undergoing a slow insurrection — one waged not in streets but in feeds. The book offers both diagnosis and a sober map of resistance for those who refuse to be programmed.", formats: ["Kindle"], price: "$4.99", cover: "cover-digital-insurrection.jpg", pages: 290, year: 2024 },
+      { id: "bridge-hope-sorrow", title: "The Bridge of Hope and Sorrow", subtitle: "A moving tale exploring the journey between hope and heartbreak", genre: "Fiction", category: "Fiction", description: "A heart-touching story about the journey between hope and heartbreak. A novel exploring the power of love and endurance.", longDescription: "The Bridge of Hope and Sorrow follows two strangers — a refugee cartographer and an aging bridge engineer — whose lives intersect on a span of steel over a river that has swallowed too many of their respective pasts. Across a single year of conversations, confessions, and quiet acts of restoration, the novel asks what we owe to the places we have left, and to the people we cannot save. A meditation on memory, mercy, and the engineering of hope.", formats: ["Kindle"], price: "$4.99", cover: "cover-bridge-hope.jpg", pages: 224, year: 2024 },
+      { id: "ink-between", title: "The Ink Between", subtitle: "When the Erased Refuse to Stay Silent", genre: "Literary Fiction", category: "Fiction", description: "A literary novel exploring memory, identity, and resistance.", longDescription: "The Ink Between is a literary novel built from the imagined diaries of three writers — a colonial clerk, a post-independence poet, and a contemporary blogger — whose lives intersect across a single city block over the course of a century. As each one writes, erases, and rewrites the others, the novel becomes a meditation on authorship itself: who has the right to tell a story, and what survives the spaces between us.", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-ink-between.jpg", pages: 268, year: 2024 },
+      { id: "ai-detox", title: "The 90-Day AI Detox", subtitle: "Break Free from ChatGPT, TikTok, and Endless Digital Dependence", genre: "Technology · Lifestyle", category: "Technology", description: "A 90-day guide to breaking free from AI dependency, TikTok, and smartphone addiction.", longDescription: "The 90-Day AI Detox is a practical and philosophical guide to reclaiming attention in an age of algorithmic dependency. Across thirteen weeks, Sado Faraji offers daily reflections, weekly exercises, and a larger argument about what we lose when we outsource our thinking to machines. The book is less anti-technology than pro-human — a manual for those who sense that something essential is slipping away and want to recover it before it is gone.", formats: ["Kindle"], price: "$4.99", cover: "cover-ai-detox.jpg", newRelease: true, pages: 198, year: 2025 },
+      { id: "cultural-shadow", title: "The Seven Laws of Cultural Shadow Power", subtitle: "How to Read, Navigate, and Master Hidden Cultural Forces", genre: "Politics · Society", category: "Politics", description: "Seven laws of cultural shadow power — a book teaching how to read, navigate, and wield the hidden forces of society.", longDescription: "Every culture casts a shadow — the unwritten rules, the unspoken hierarchies, the currencies of influence that never appear on any organizational chart. The Seven Laws of Cultural Shadow Power names these forces, traces how they operate beneath the surface of formal institutions, and offers a framework for those who wish to read them, navigate them, or — when necessary — wield them. Equal parts sociology, strategy, and quiet subversion.", formats: ["Kindle"], price: "$9.99", cover: "cover-cultural-shadow.jpg", pages: 320, year: 2024 },
+      { id: "power-whisper", title: "Power Whisper", subtitle: "8 Laws of Influence That History Tried to Hide", genre: "Politics · History", category: "Politics", description: "Eight laws of influence that history tried to hide.", longDescription: "Power Whisper is a study of the eight laws of influence that have, across centuries and civilizations, shaped the rise and fall of dynasties, movements, and empires — yet rarely appear in any official record. Drawing from court memoirs, religious intrigue, revolutionary correspondence, and the quiet testimony of those who held power without ever sitting on a throne, the book recovers a hidden curriculum of influence that anyone, in any station of life, can study and apply.", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-power-whisper.jpg", pages: 244, year: 2024 },
+      { id: "mirror-states", title: "The Mirror States", subtitle: "Saudi Arabia, Israel, and the Architecture of Betrayal", genre: "Politics · History", category: "Politics", description: "An in-depth analysis of the relationship between Saudi Arabia and Israel.", longDescription: "The Mirror States examines the strange, durable, and historically improbable alignment between Saudi Arabia and Israel — two states that officially do not recognize one another, yet whose security, intelligence, and economic interests have quietly converged for decades. Through diplomatic history, intelligence analysis, and the testimony of defectors and diplomats, Sado Faraji maps an architecture of betrayal in which two supposed adversaries have learned to mirror one another's worst impulses.", formats: ["Kindle", "Paperback"], price: "$4.99", cover: "cover-mirror-states.jpg", pages: 278, year: 2024 }
+    ];
+
+    const articles = [
+      {
+        id: "vita-visivyoonekana",
+        title: "\"Invisible Wars\": The CIA, Hybrid Warfare, and Propaganda",
+        excerpt: "From Angola to Syria — how nations are invaded through propaganda, revolutions, and internal conflicts. An analysis of the CIA's covert global wars.",
+        category: "Politics · History · Security",
+        readTime: "15 min read",
+        date: "2025",
+        accent: "wine",
+        lead: "The wars of the late twentieth and early twenty-first centuries have not been fought only with guns. They have been fought with narratives.",
+        body: [
+          "From Angola to Syria, from the contras to the color revolutions, a pattern recurs: a sovereign nation is destabilized not by foreign armies but by foreign narratives, by weaponized grievance, by the quiet arming of one faction against another in the name of democracy, stability, or humanitarian concern. The CIA did not invent this method, but it refined it into a science.",
+          "What we call hybrid warfare is the deliberate fusion of military, economic, informational, and psychological instruments toward a single political objective: the substitution of one regime for another without the cost — and visibility — of open war. The advantage is deniability. The disadvantage is that it works slowly, and sometimes it works too well.",
+          "The propaganda layer is the most durable of these instruments. Long after the arms shipments stop and the proxy militias disband, the narratives remain — embedded in textbooks, in films, in the assumptions of two generations of journalists. To win a hybrid war is to colonize not only a territory but a memory.",
+          "This piece traces the architecture of invisible war across six decades and four continents. It is not a conspiracy theory. It is a conspiracy history — and the difference matters."
+        ]
+      },
+      {
+        id: "warioba-mange-khalifa",
+        title: "Warioba, Mange, and Khalifa: One Tanzania, Three Worlds",
+        excerpt: "A division invisible to the eye — yet audible in every political conversation in Tanzania. An analysis of the country's three parallel societies.",
+        category: "Politics · Society · Generations",
+        readTime: "10 min read",
+        date: "2025",
+        accent: "teal",
+        lead: "Tanzania is one country. It is also three countries, and they do not speak to one another.",
+        body: [
+          "There is a Tanzania of the elders — those who came of age under Nyerere, who remember ujamaa not as a slogan but as a lived experiment, who measure time in terms of the moral economy of the village. There is a Tanzania of the middle generation — shaped by structural adjustment, by the slow disillusionment of the multi-party era, by the discovery of gas and the disappearance of trust. And there is a Tanzania of the young — digital, restless, multilingual, suspicious of every institution inherited from either of the other two worlds.",
+          "These three Tanzanias share a flag, a currency, and a national anthem. They do not share a story. When a Warioba-era civil servant, a Mange-era entrepreneur, and a Khalifa-era digital native sit at the same table, they speak past one another in dialects of the same language that no longer quite translate.",
+          "This essay is an attempt to map those three worlds — not to reconcile them, which may not be possible, but to name them so that the next conversation can at least begin from a shared vocabulary. A country that cannot name its own internal geography cannot govern itself honestly."
+        ]
+      }
+    ];
+
+    const categories = ["All", "History", "Religion", "Fantasy", "Fiction", "Espionage", "Politics", "Technology", "Drama"];
+
+    const themes = [
+      { name: "History", count: "4 books", color: "var(--gold-bright)", soft: "rgba(201, 169, 97, 0.14)", gradient: "linear-gradient(135deg, rgba(201, 169, 97, 0.08), transparent)", icon: '<path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-5"/>' },
+      { name: "Religion & Faith", count: "2 books", color: "var(--sage-bright)", soft: "rgba(111, 139, 106, 0.16)", gradient: "linear-gradient(135deg, rgba(111, 139, 106, 0.1), transparent)", icon: '<path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/>' },
+      { name: "Fantasy", count: "2 books", color: "var(--plum-bright)", soft: "rgba(91, 58, 102, 0.2)", gradient: "linear-gradient(135deg, rgba(91, 58, 102, 0.12), transparent)", icon: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>' },
+      { name: "Politics", count: "3 books", color: "var(--wine-bright)", soft: "rgba(139, 38, 53, 0.16)", gradient: "linear-gradient(135deg, rgba(139, 38, 53, 0.1), transparent)", icon: '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>' },
+      { name: "Technology", count: "2 books", color: "var(--teal-bright)", soft: "rgba(45, 107, 110, 0.18)", gradient: "linear-gradient(135deg, rgba(45, 107, 110, 0.12), transparent)", icon: '<rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>' },
+      { name: "Espionage", count: "1 book", color: "var(--amber-bright)", soft: "rgba(199, 122, 59, 0.18)", gradient: "linear-gradient(135deg, rgba(199, 122, 59, 0.12), transparent)", icon: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>' },
+      { name: "Drama", count: "1 book", color: "var(--gold-bright)", soft: "rgba(201, 169, 97, 0.14)", gradient: "linear-gradient(135deg, rgba(201, 169, 97, 0.08), transparent)", icon: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="14" y2="17"/>' },
+      { name: "Literary Fiction", count: "3 books", color: "var(--sage-bright)", soft: "rgba(111, 139, 106, 0.16)", gradient: "linear-gradient(135deg, rgba(111, 139, 106, 0.1), transparent)", icon: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>' }
+    ];
+
+    // Map themes to book categories for filtering
+    const themeToCategory = {
+      "History": "History",
+      "Religion & Faith": "Religion",
+      "Fantasy": "Fantasy",
+      "Politics": "Politics",
+      "Technology": "Technology",
+      "Espionage": "Espionage",
+      "Drama": "Drama",
+      "Literary Fiction": "Fiction"
+    };
+
+    function bookCard(book, idx) {
+      return `
+        <button class="book" data-book-id="${book.id}" style="animation-delay: ${idx * 0.05}s; background: none; width: 100%;">
+          <div class="book-cover-wrap">
+            ${book.newRelease ? '<span class="book-badge">New</span>' : ''}
+            <img src="images/${book.cover}" alt="${book.title}" loading="lazy" />
+          </div>
+          <div class="book-info">
+            <h3 class="book-title">${book.title}</h3>
+            <p class="book-genre">${book.genre}</p>
+            <div class="book-foot">
+              <span class="book-price">${book.price}</span>
+              <span class="book-view">View Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
+            </div>
+          </div>
+        </button>
+      `;
+    }
+
+    function featuredCard(book) {
+      return `
+        <button class="featured-book reveal" data-book-id="${book.id}" style="width: 100%; text-align: left;">
+          <div class="cover-wrap">
+            <img src="images/${book.cover}" alt="${book.title}" loading="lazy" />
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <div class="fb-tags">
+              <span class="fb-tag">${book.category}</span>
+              ${book.newRelease ? '<span class="fb-tag new">New</span>' : ''}
+            </div>
+            <h3>${book.title}</h3>
+            <p class="sub">${book.subtitle}</p>
+            <p class="desc">${book.description}</p>
+            <div class="fb-foot">
+              <div class="fb-formats">
+                ${book.formats.map(f => `<span class="fb-format">${f}</span>`).join('')}
+                <span class="fb-price">${book.price}</span>
+              </div>
+              <span class="fb-view">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
+            </div>
+          </div>
+        </button>
+      `;
+    }
+
+    function renderThemes() {
+      const grid = document.getElementById('themesGrid');
+      grid.innerHTML = themes.map(t => `
+        <button class="theme-card" data-theme="${t.name}" style="--theme-color: ${t.color}; --theme-soft: ${t.soft}; --theme-gradient: ${t.gradient}; background: var(--surface); width: 100%; text-align: left;">
+          <div class="theme-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">${t.icon}</svg>
+          </div>
+          <h4>${t.name}</h4>
+          <p>${getThemeDesc(t.name)}</p>
+          <div class="theme-count">
+            ${t.count}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </div>
+        </button>
+      `).join('');
+    }
+
+    function getThemeDesc(name) {
+      const map = {
+        "History": "Historical analysis of Africa, Islam, and the Middle East.",
+        "Religion & Faith": "Critiques of religion, faith, and spiritual authority in society.",
+        "Fantasy": "Fantasy and romantasy novels featuring jinns, pacts, and destiny.",
+        "Politics": "Political power, influence, and the architecture of hidden control.",
+        "Technology": "Algorithmic warfare, AI, and digital control in the modern world.",
+        "Espionage": "Modern espionage, propaganda, and invisible warfare.",
+        "Drama": "Swahili dramatic works examining society and politics.",
+        "Literary Fiction": "Literary novels on memory, identity, and resistance."
+      };
+      return map[name] || "";
+    }
+
+    function renderFeatured() {
+      const featured = books.filter(b => b.newRelease);
+      document.getElementById('featuredLarge').innerHTML = featured.map(featuredCard).join('');
+      attachBookHandlers();
+      observeReveals();
+    }
+
+    function renderFilters() {
+      document.getElementById('filters').innerHTML = categories.map(cat =>
+        `<button class="filter-pill ${cat === 'All' ? 'active' : ''}" data-cat="${cat}">${cat}</button>`
+      ).join('');
+    }
+
+    function renderBooks(filter = 'All') {
+      const filtered = filter === 'All' ? books : books.filter(b => b.category === filter);
+      document.getElementById('booksGrid').innerHTML = filtered.map((b, i) => bookCard(b, i)).join('');
+      attachBookHandlers();
+    }
+
+    function renderArticles() {
+      document.getElementById('articlesGrid').innerHTML = articles.map(a => `
+        <button class="article ${a.accent || ''} reveal" data-article-id="${a.id}" style="text-align: left; width: 100%;">
+          <div class="article-meta">
+            <span class="article-cat">${a.category}</span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              ${a.date}
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              ${a.readTime}
+            </span>
+          </div>
+          <h3>${a.title}</h3>
+          <p>${a.excerpt}</p>
+          <span class="read">
+            Read Full Article
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </button>
+      `).join('');
+      attachArticleHandlers();
+      observeReveals();
+    }
+
+    // ============ MODAL ============
+
+    function openBookModal(bookId) {
+      const book = books.find(b => b.id === bookId);
+      if (!book) return;
+      const html = `
+        <div class="modal-body">
+          <div class="modal-grid">
+            <div class="modal-cover-wrap">
+              <div class="modal-cover">
+                <img src="images/${book.cover}" alt="${book.title}" />
+              </div>
+              <div class="modal-cover-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                ${book.category}
+              </div>
+            </div>
+            <div class="modal-content">
+              <div class="modal-eyebrow">${book.series || 'Standalone Title'}</div>
+              <h2 class="modal-title">${book.title}</h2>
+              <p class="modal-subtitle">${book.subtitle}</p>
+
+              <div class="modal-meta-row">
+                <span class="modal-meta-pill price">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v12M9 9h4.5a2 2 0 0 1 0 4H9"/></svg>
+                  ${book.price}
+                </span>
+                ${book.formats.map(f => `<span class="modal-meta-pill">${f}</span>`).join('')}
+                ${book.pages ? `<span class="modal-meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>${book.pages} pages</span>` : ''}
+                ${book.year ? `<span class="modal-meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>${book.year}</span>` : ''}
+              </div>
+
+              <div class="modal-section">
+                <div class="modal-section-label">About the Book</div>
+                <p class="modal-desc">${book.longDescription}</p>
+              </div>
+
+              <div class="modal-section">
+                <div class="modal-section-label">Genre & Themes</div>
+                <div class="modal-tags">
+                  ${book.genre.split(' · ').map(g => `<span class="modal-tag">${g}</span>`).join('')}
+                  ${book.series ? `<span class="modal-tag">Series: ${book.series}</span>` : ''}
+                </div>
+              </div>
+
+              <div class="modal-actions">
+                <a href="${AMAZON_URL}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                  Buy on Amazon
+                </a>
+                <a href="${BOOKS2READ_URL}" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  Draft2Digital
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      showModal(html);
+    }
+
+    function openArticleModal(articleId) {
+      const a = articles.find(x => x.id === articleId);
+      if (!a) return;
+      const html = `
+        <div class="modal-article-body">
+          <div class="modal-article-meta">
+            <span class="article-cat" style="padding: .3rem .75rem; background: rgba(201, 169, 97, 0.12); color: var(--gold); font-weight: 600; letter-spacing: .04em; border-radius: 2px; font-size: .6875rem;">${a.category}</span>
+            <span style="display: inline-flex; align-items: center; gap: .4rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:.85rem;height:.85rem;"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              ${a.date}
+            </span>
+            <span style="display: inline-flex; align-items: center; gap: .4rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:.85rem;height:.85rem;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              ${a.readTime}
+            </span>
+          </div>
+          <h2 class="modal-article-title">${a.title}</h2>
+          <div class="modal-article-divider"></div>
+          <div class="modal-article-content">
+            <p class="lead">${a.lead}</p>
+            ${a.body.map(p => `<p>${p}</p>`).join('')}
+          </div>
+          <div class="modal-actions" style="margin-top: 2.5rem;">
+            <a href="${WEBSITE_URL}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              Read on Main Site
+            </a>
+          </div>
+        </div>
+      `;
+      showModal(html);
+    }
+
+    function showModal(html) {
+      const backdrop = document.getElementById('modalBackdrop');
+      const content = document.getElementById('modalContent');
+      content.innerHTML = html;
+      backdrop.classList.add('open');
+      document.body.classList.add('modal-open');
+      // Scroll modal to top
+      document.getElementById('modal').scrollTop = 0;
+    }
+
+    function closeModal() {
+      const backdrop = document.getElementById('modalBackdrop');
+      backdrop.classList.remove('open');
+      document.body.classList.remove('modal-open');
+    }
+
+    function attachBookHandlers() {
+      document.querySelectorAll('[data-book-id]').forEach(el => {
+        if (el._bound) return;
+        el._bound = true;
+        el.addEventListener('click', (e) => {
+          e.preventDefault();
+          openBookModal(el.dataset.bookId);
+        });
+      });
+    }
+
+    function attachArticleHandlers() {
+      document.querySelectorAll('[data-article-id]').forEach(el => {
+        if (el._bound) return;
+        el._bound = true;
+        el.addEventListener('click', (e) => {
+          e.preventDefault();
+          openArticleModal(el.dataset.articleId);
+        });
+      });
+    }
+
+    function attachThemeHandlers() {
+      document.querySelectorAll('[data-theme]').forEach(el => {
+        el.addEventListener('click', () => {
+          const themeName = el.dataset.theme;
+          const cat = themeToCategory[themeName];
+          if (cat) {
+            document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+            const pill = document.querySelector(`.filter-pill[data-cat="${cat}"]`);
+            if (pill) {
+              pill.classList.add('active');
+              renderBooks(cat);
+            }
+            document.getElementById('vitabu').scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    }
+
+    // Scroll reveal observer
+    let revealObserver;
+    function observeReveals() {
+      if (!('IntersectionObserver' in window)) {
+        document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+        return;
+      }
+      if (!revealObserver) {
+        revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in');
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      }
+      document.querySelectorAll('.reveal:not(.in)').forEach(el => revealObserver.observe(el));
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderThemes();
+      attachThemeHandlers();
+      renderFeatured();
+      renderFilters();
+      renderBooks();
+      renderArticles();
+      observeReveals();
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+      const menuIcon = document.getElementById('menuIcon');
+      const openIcon = '<line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>';
+      const closeIcon = '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>';
+
+      menuBtn.addEventListener('click', () => {
+        mobileNav.classList.toggle('open');
+        menuIcon.innerHTML = mobileNav.classList.contains('open') ? closeIcon : openIcon;
+      });
+      mobileNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('open');
+          menuIcon.innerHTML = openIcon;
+        });
+      });
+
+      document.getElementById('filters').addEventListener('click', (e) => {
+        if (e.target.classList.contains('filter-pill')) {
+          document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+          e.target.classList.add('active');
+          renderBooks(e.target.dataset.cat);
+        }
+      });
+
+      // Modal close handlers
+      document.getElementById('modalClose').addEventListener('click', closeModal);
+      document.getElementById('modalBackdrop').addEventListener('click', (e) => {
+        if (e.target.id === 'modalBackdrop') closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+      });
+
+      const header = document.getElementById('header');
+      let ticking = false;
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            header.classList.toggle('scrolled', window.scrollY > 20);
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
